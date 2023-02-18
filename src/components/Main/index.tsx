@@ -1,7 +1,7 @@
 import * as S from './styled'
 import { Props } from './types'
 
-export const Main = ({
+const Main = ({
   title = 'React Avançado',
   description = 'Typescript, ReactJS, NextJS e Styled Components'
 }: Props) => {
@@ -21,3 +21,5 @@ export const Main = ({
     </S.Container>
   )
 }
+
+export default Main
