@@ -6,6 +6,6 @@ import { Props } from './types'
 export default {
   title: 'Components/Main',
   component: Main
-} as Meta<Props>
+} as Meta<typeof Main>
 
 export const Default: StoryObj<Props> = {}
